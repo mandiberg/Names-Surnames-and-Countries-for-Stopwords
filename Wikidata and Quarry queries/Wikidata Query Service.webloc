@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://query.wikidata.org/#PREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0A%0ASELECT%20DISTINCT%20%3Fitem%20%3Flabel%0AWHERE%0A%0A%23SELECT%20DISTINCT%20%3Fitem%20%3Flabel%20%28lang%28%3Flabel%29%20as%20%3Flabel_lang%29%0A%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ515%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3Flabel%3B%0A%20%20%20%20%20%20%20%20%0A%7D%0Aorder%20by%20%3Fitem%0ALIMIT%20300000%0AOFFSET%20900000%0A%0A%23%20production%20values%3A%0A%23%20city%20%28Q515%29%0A%23%20country%20%28Q6256%29%0A%23%20state%20%28former%20or%20current%29%20%28Q96196009%29%0A%23%20month%20%28Q5151%29%0A%23%20day%20of%20the%20week%20%28Q41825%29%0A%23%20numeral%20%28Q63116%29%0A%23%20natural%20number%20%28Q21199%29</string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://query.wikidata.org/#select%20DISTINCT%20%3Fitem%20%3Flabel%20%3Fsitelinks%20where%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ515%3B%20rdfs%3Alabel%20%3Flabel.%0A%20%20%3Fitem%20wikibase%3Asitelinks%20%3Fsitelinks.%0A%20%20filter%20%28%3Fsitelinks%20%3E%3D%20100%29%0A%0A%23%20%20service%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%20%20order%20by%20desc%28%3Fsitelinks%29%20%0A%0A%23limit%201000</string>
+</dict>
+</plist>
